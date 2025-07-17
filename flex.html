@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flex box</title>
+    <style>
+        .container{
+            display: flex;
+        }
+        .container div{
+            border: 2px solid tomato;
+            height: 50px;
+            width: 200px;
+            font-size: 3em;
+        }
+        .box-container{
+            display: flex;
+            gap: 50px;
+        }
+        .box{
+            font-size: 4em ;
+            height: 150px;
+            width: 150PX;
+            border: 2PX solid rgb(74, 26, 108);
+        }
+
+        .user{
+            border: 4px solid rgb(60, 22, 47) ;
+            height: 150px;
+            width: 150px;
+            font-size: 2em;
+            background-color: beige;
+        }
+
+        .user-container{
+            display: flex;
+            justify-content: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+        <div>4</div>
+        <div>5</div>
+        <div>6</div>
+    </div>
+
+    <div class="box-container">
+        <div class="box">1</div>
+        <div class="box">2</div>
+        <div class="box">3</div>
+        <div class="box">4</div>
+        <div class="box">5</div>
+        <div class="box">6</div>
+    </div>
+
+    <div class="user-container">
+        <div class="user">user-1</div>
+        <div class="user">user-2</div>
+        <div class="user">user-3</div>
+
+    </div>
+
+</body>
+</html>
